@@ -1,0 +1,21 @@
+[context]
+version = "0.1"
+description = "Example Context Pack"
+
+[[decisions]]
+title = "Use Python for backend scripts"
+date = "2026-10-05"
+path = "decisions/2026_10_05_python_backend.md"
+
+[[decisions]]
+title = "PostgreSQL as primary database"
+date = "2026-10-04"
+path = "decisions/2026_10_04_postgres.md"
+
+[[prefs]]
+title = "Code review checklist"
+path = "prefs/CODE_REVIEW.md"
+
+[[prefs]]
+title = "Commit message style"
+path = "prefs/COMMIT_MESSAGES.md"
