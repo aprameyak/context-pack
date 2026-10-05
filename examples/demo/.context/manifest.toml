@@ -1,0 +1,8 @@
+context_protocol = "0.1"
+name = "demo"
+always_on = ["POLICY.md"]
+max_always_on_bytes = 2048
+roots = ["decisions", "prefs", "state"]
+private_roots = ["private"]
+write_back = ["decisions", "prefs", "state"]
+forbid_write = ["POLICY.md", "manifest.toml"]

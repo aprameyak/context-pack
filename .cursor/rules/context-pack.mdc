@@ -1,0 +1,15 @@
+---
+description: Context Pack retrieval policy — load on demand, do not dump the pack
+alwaysApply: true
+---
+
+# Context Pack
+
+This repository uses Context Pack v0.1 at `.context/`.
+
+1. Read `.context/POLICY.md` before non-trivial work.
+2. Do **not** load the entire `.context/` tree up front.
+3. Search and open only relevant `decisions/` and `prefs/` files.
+4. Prefer source and tests over notes.
+5. After durable architectural choices, add a decision file instead of chat-only memory.
+6. Never store secrets in the pack.
